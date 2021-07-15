@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FDFE74026A0CEC9007FE1A0 /* AdventioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE73F26A0CEC9007FE1A0 /* AdventioApp.swift */; };
+		1FDFE74226A0CEC9007FE1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74126A0CEC9007FE1A0 /* ContentView.swift */; };
+		1FDFE74426A0CECC007FE1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */; };
+		1FDFE74726A0CECC007FE1A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFE74626A0CECC007FE1A0 /* Preview Assets.xcassets */; };
+		1FDFE74926A0CECC007FE1A0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74826A0CECC007FE1A0 /* Persistence.swift */; };
+		1FDFE74C26A0CECC007FE1A0 /* Adventio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74A26A0CECC007FE1A0 /* Adventio.xcdatamodeld */; };
+		1FDFE75726A0CECD007FE1A0 /* AdventioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE75626A0CECD007FE1A0 /* AdventioTests.swift */; };
+		1FDFE76226A0CECD007FE1A0 /* AdventioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE76126A0CECD007FE1A0 /* AdventioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FDFE75326A0CECD007FE1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FDFE73426A0CEC9007FE1A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDFE73B26A0CEC9007FE1A0;
+			remoteInfo = Adventio;
+		};
+		1FDFE75E26A0CECD007FE1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FDFE73426A0CEC9007FE1A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDFE73B26A0CEC9007FE1A0;
+			remoteInfo = Adventio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FDFE73C26A0CEC9007FE1A0 /* Adventio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE73F26A0CEC9007FE1A0 /* AdventioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventioApp.swift; sourceTree = "<group>"; };
+		1FDFE74126A0CEC9007FE1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FDFE74626A0CECC007FE1A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FDFE74826A0CECC007FE1A0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1FDFE74B26A0CECC007FE1A0 /* Adventio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adventio.xcdatamodel; sourceTree = "<group>"; };
+		1FDFE74D26A0CECC007FE1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDFE75226A0CECD007FE1A0 /* AdventioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE75626A0CECD007FE1A0 /* AdventioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventioTests.swift; sourceTree = "<group>"; };
+		1FDFE75826A0CECD007FE1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDFE75D26A0CECD007FE1A0 /* AdventioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE76126A0CECD007FE1A0 /* AdventioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventioUITests.swift; sourceTree = "<group>"; };
+		1FDFE76326A0CECD007FE1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDFE73926A0CEC9007FE1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE74F26A0CECD007FE1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE75A26A0CECD007FE1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FDFE73326A0CEC9007FE1A0 = {
+			isa = PBXGroup;
+			children = (
+				1FDFE73E26A0CEC9007FE1A0 /* Adventio */,
+				1FDFE75526A0CECD007FE1A0 /* AdventioTests */,
+				1FDFE76026A0CECD007FE1A0 /* AdventioUITests */,
+				1FDFE73D26A0CEC9007FE1A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FDFE73D26A0CEC9007FE1A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FDFE73C26A0CEC9007FE1A0 /* Adventio.app */,
+				1FDFE75226A0CECD007FE1A0 /* AdventioTests.xctest */,
+				1FDFE75D26A0CECD007FE1A0 /* AdventioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FDFE73E26A0CEC9007FE1A0 /* Adventio */ = {
+			isa = PBXGroup;
+			children = (
+				1FDFE73F26A0CEC9007FE1A0 /* AdventioApp.swift */,
+				1FDFE74126A0CEC9007FE1A0 /* ContentView.swift */,
+				1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */,
+				1FDFE74826A0CECC007FE1A0 /* Persistence.swift */,
+				1FDFE74D26A0CECC007FE1A0 /* Info.plist */,
+				1FDFE74A26A0CECC007FE1A0 /* Adventio.xcdatamodeld */,
+				1FDFE74526A0CECC007FE1A0 /* Preview Content */,
+			);
+			path = Adventio;
+			sourceTree = "<group>";
+		};
+		1FDFE74526A0CECC007FE1A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FDFE74626A0CECC007FE1A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FDFE75526A0CECD007FE1A0 /* AdventioTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FDFE75626A0CECD007FE1A0 /* AdventioTests.swift */,
+				1FDFE75826A0CECD007FE1A0 /* Info.plist */,
+			);
+			path = AdventioTests;
+			sourceTree = "<group>";
+		};
+		1FDFE76026A0CECD007FE1A0 /* AdventioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FDFE76126A0CECD007FE1A0 /* AdventioUITests.swift */,
+				1FDFE76326A0CECD007FE1A0 /* Info.plist */,
+			);
+			path = AdventioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FDFE73B26A0CEC9007FE1A0 /* Adventio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDFE76626A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "Adventio" */;
+			buildPhases = (
+				1FDFE73826A0CEC9007FE1A0 /* Sources */,
+				1FDFE73926A0CEC9007FE1A0 /* Frameworks */,
+				1FDFE73A26A0CEC9007FE1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adventio;
+			productName = Adventio;
+			productReference = 1FDFE73C26A0CEC9007FE1A0 /* Adventio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FDFE75126A0CECD007FE1A0 /* AdventioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDFE76926A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioTests" */;
+			buildPhases = (
+				1FDFE74E26A0CECD007FE1A0 /* Sources */,
+				1FDFE74F26A0CECD007FE1A0 /* Frameworks */,
+				1FDFE75026A0CECD007FE1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FDFE75426A0CECD007FE1A0 /* PBXTargetDependency */,
+			);
+			name = AdventioTests;
+			productName = AdventioTests;
+			productReference = 1FDFE75226A0CECD007FE1A0 /* AdventioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FDFE75C26A0CECD007FE1A0 /* AdventioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDFE76C26A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioUITests" */;
+			buildPhases = (
+				1FDFE75926A0CECD007FE1A0 /* Sources */,
+				1FDFE75A26A0CECD007FE1A0 /* Frameworks */,
+				1FDFE75B26A0CECD007FE1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FDFE75F26A0CECD007FE1A0 /* PBXTargetDependency */,
+			);
+			name = AdventioUITests;
+			productName = AdventioUITests;
+			productReference = 1FDFE75D26A0CECD007FE1A0 /* AdventioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FDFE73426A0CEC9007FE1A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1FDFE73B26A0CEC9007FE1A0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1FDFE75126A0CECD007FE1A0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1FDFE73B26A0CEC9007FE1A0;
+					};
+					1FDFE75C26A0CECD007FE1A0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1FDFE73B26A0CEC9007FE1A0;
+					};
+				};
+			};
+			buildConfigurationList = 1FDFE73726A0CEC9007FE1A0 /* Build configuration list for PBXProject "Adventio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FDFE73326A0CEC9007FE1A0;
+			productRefGroup = 1FDFE73D26A0CEC9007FE1A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FDFE73B26A0CEC9007FE1A0 /* Adventio */,
+				1FDFE75126A0CECD007FE1A0 /* AdventioTests */,
+				1FDFE75C26A0CECD007FE1A0 /* AdventioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FDFE73A26A0CEC9007FE1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDFE74726A0CECC007FE1A0 /* Preview Assets.xcassets in Resources */,
+				1FDFE74426A0CECC007FE1A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE75026A0CECD007FE1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE75B26A0CECD007FE1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDFE73826A0CEC9007FE1A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDFE74926A0CECC007FE1A0 /* Persistence.swift in Sources */,
+				1FDFE74226A0CEC9007FE1A0 /* ContentView.swift in Sources */,
+				1FDFE74026A0CEC9007FE1A0 /* AdventioApp.swift in Sources */,
+				1FDFE74C26A0CECC007FE1A0 /* Adventio.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE74E26A0CECD007FE1A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDFE75726A0CECD007FE1A0 /* AdventioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDFE75926A0CECD007FE1A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDFE76226A0CECD007FE1A0 /* AdventioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FDFE75426A0CECD007FE1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FDFE73B26A0CEC9007FE1A0 /* Adventio */;
+			targetProxy = 1FDFE75326A0CECD007FE1A0 /* PBXContainerItemProxy */;
+		};
+		1FDFE75F26A0CECD007FE1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FDFE73B26A0CEC9007FE1A0 /* Adventio */;
+			targetProxy = 1FDFE75E26A0CECD007FE1A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FDFE76426A0CECD007FE1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FDFE76526A0CECD007FE1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FDFE76726A0CECD007FE1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Adventio/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Adventio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.Adventio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FDFE76826A0CECD007FE1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Adventio/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Adventio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.Adventio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FDFE76A26A0CECD007FE1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
+				INFOPLIST_FILE = AdventioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.AdventioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventio.app/Adventio";
+			};
+			name = Debug;
+		};
+		1FDFE76B26A0CECD007FE1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
+				INFOPLIST_FILE = AdventioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.AdventioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventio.app/Adventio";
+			};
+			name = Release;
+		};
+		1FDFE76D26A0CECD007FE1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
+				INFOPLIST_FILE = AdventioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.AdventioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adventio;
+			};
+			name = Debug;
+		};
+		1FDFE76E26A0CECD007FE1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
+				INFOPLIST_FILE = AdventioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.AdventioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adventio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDFE73726A0CEC9007FE1A0 /* Build configuration list for PBXProject "Adventio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE76426A0CECD007FE1A0 /* Debug */,
+				1FDFE76526A0CECD007FE1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDFE76626A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "Adventio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE76726A0CECD007FE1A0 /* Debug */,
+				1FDFE76826A0CECD007FE1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDFE76926A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE76A26A0CECD007FE1A0 /* Debug */,
+				1FDFE76B26A0CECD007FE1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDFE76C26A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDFE76D26A0CECD007FE1A0 /* Debug */,
+				1FDFE76E26A0CECD007FE1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FDFE74A26A0CECC007FE1A0 /* Adventio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FDFE74B26A0CECC007FE1A0 /* Adventio.xcdatamodel */,
+			);
+			currentVersion = 1FDFE74B26A0CECC007FE1A0 /* Adventio.xcdatamodel */;
+			path = Adventio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FDFE73426A0CEC9007FE1A0 /* Project object */;
+}
