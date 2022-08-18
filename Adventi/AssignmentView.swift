@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct AssignmentView: View {
+    @Binding var event: Event
+    var gifter: event.attendees
+    var giftee: event.attendees
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            RoundedRectangle(cornerRadius: 16.0)
+                .fill(event.color)
+            VStack {
+                
+            }
+        }
+        .padding()
+        .foregroundColor(event.color.accessibleFontColor)
     }
 }
 
+
 struct AssignmentView_Previews: PreviewProvider {
     static var previews: some View {
-        AssignmentView()
+        AssignmentView(event: .constant(Event.data[0]))
     }
 }

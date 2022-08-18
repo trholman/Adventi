@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct EventsView: View {
-    @Binding var events: [DailyScrum]
+    @Binding var events: [Event]
     @Environment(\.scenePhase) private var scenePhase
     @State private var isPresented = false
-    @State private var newEventData = DailyScrum.Data()
+    @State private var newEventData = Event.Data()
     let saveAction: () -> Void
     var body: some View {
         List {
@@ -22,7 +22,7 @@ struct EventsView: View {
                 .listRowBackground(event.color)
             }
         }
-        .navigationTitle("Advent Events")
+        .navigationTitle("Scheduled Events")
         .navigationBarItems(trailing: Button(action: {
             isPresented = true
         }) {
@@ -34,9 +34,8 @@ struct EventsView: View {
                     .navigationBarItems(leading: Button("Dismiss") {
                         isPresented = false
                     }, trailing: Button("Add") {
-                        let newEvent = AdventEvent(title: newEventData.title, attendees: newEventData.attendees,
-                                                  lengthInMinutes: Int(newEventData.lengthInMinutes), color: newEventData.color)
-                        event.append(newEvent)
+                        let newEvent = Event(title: newEventData.title, attendees: newEventData.attendees, eventDate: Text(newEventData.eventDate), color: newEventData.color)
+                        events.append(newEvent)
                         isPresented = false
                     })
             }
@@ -46,7 +45,7 @@ struct EventsView: View {
         }
     }
 
-    private func binding(for event: AdventEvent) -> Binding<AdventEvent> {
+    private func binding(for event: Event) -> Binding<Event> {
         guard let eventIndex = events.firstIndex(where: { $0.id == event.id }) else {
             fatalError("Cannot find event in array")
         }
@@ -57,7 +56,7 @@ struct EventsView: View {
 struct EventsView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            EventsView(events: .constant(AdventEvent.data), saveAction: {})
+            EventsView(events: .constant(Event.data), saveAction: {})
         }
     }
 }

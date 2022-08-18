@@ -13,7 +13,7 @@ struct AdventiApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                EventssView(events: $data.events) {
+                EventsView(events: $data.events) {
                     data.save()
                 }
             }

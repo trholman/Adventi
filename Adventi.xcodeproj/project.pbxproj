@@ -11,10 +11,19 @@
 		1FDFE74026A0CEC9007FE1A0 /* AdventiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE73F26A0CEC9007FE1A0 /* AdventiApp.swift */; };
 		1FDFE74426A0CECC007FE1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */; };
 		1FDFE74726A0CECC007FE1A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFE74626A0CECC007FE1A0 /* Preview Assets.xcassets */; };
-		1FDFE74926A0CECC007FE1A0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74826A0CECC007FE1A0 /* Persistence.swift */; };
-		1FDFE74C26A0CECC007FE1A0 /* Adventio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74A26A0CECC007FE1A0 /* Adventio.xcdatamodeld */; };
-		1FDFE75726A0CECD007FE1A0 /* AdventioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE75626A0CECD007FE1A0 /* AdventioTests.swift */; };
-		1FDFE76226A0CECD007FE1A0 /* AdventioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE76126A0CECD007FE1A0 /* AdventioUITests.swift */; };
+		1FDFE74C26A0CECC007FE1A0 /* Adventi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74A26A0CECC007FE1A0 /* Adventi.xcdatamodeld */; };
+		1FDFE75726A0CECD007FE1A0 /* AdventiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE75626A0CECD007FE1A0 /* AdventiTests.swift */; };
+		1FDFE76226A0CECD007FE1A0 /* AdventiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE76126A0CECD007FE1A0 /* AdventiUITests.swift */; };
+		1FEF323A2745AC3100C68F1C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF32392745AC3100C68F1C /* CardView.swift */; };
+		1FEF323C2745AD5B00C68F1C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF323B2745AD5B00C68F1C /* DetailView.swift */; };
+		1FEF323F2745ADEC00C68F1C /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF323E2745ADEC00C68F1C /* EditView.swift */; };
+		1FEF32412745AE8200C68F1C /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF32402745AE8200C68F1C /* AssignmentView.swift */; };
+		1FEF32492745B11D00C68F1C /* EventProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF32482745B11D00C68F1C /* EventProgressViewStyle.swift */; };
+		1FEF324B2745B1BB00C68F1C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF324A2745B1BB00C68F1C /* HistoryView.swift */; };
+		1FEF324E2745B26F00C68F1C /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF324D2745B26F00C68F1C /* Color+Codable.swift */; };
+		1FEF32502745B2B500C68F1C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF324F2745B2B500C68F1C /* Event.swift */; };
+		1FEF32562745B3A800C68F1C /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF32552745B3A800C68F1C /* History.swift */; };
+		1FEF32582745B3CC00C68F1C /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF32572745B3CC00C68F1C /* EventData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +45,28 @@
 
 /* Begin PBXFileReference section */
 		1FAD1EDF2745A915009172C3 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
-		1FDFE73C26A0CEC9007FE1A0 /* Adventio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE73C26A0CEC9007FE1A0 /* Adventi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDFE73F26A0CEC9007FE1A0 /* AdventiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventiApp.swift; sourceTree = "<group>"; };
 		1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDFE74626A0CECC007FE1A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1FDFE74826A0CECC007FE1A0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1FDFE74B26A0CECC007FE1A0 /* Adventio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adventio.xcdatamodel; sourceTree = "<group>"; };
 		1FDFE74D26A0CECC007FE1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FDFE75226A0CECD007FE1A0 /* AdventioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FDFE75626A0CECD007FE1A0 /* AdventioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventioTests.swift; sourceTree = "<group>"; };
+		1FDFE75226A0CECD007FE1A0 /* AdventiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE75626A0CECD007FE1A0 /* AdventiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventiTests.swift; sourceTree = "<group>"; };
 		1FDFE75826A0CECD007FE1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FDFE75D26A0CECD007FE1A0 /* AdventioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FDFE76126A0CECD007FE1A0 /* AdventioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventioUITests.swift; sourceTree = "<group>"; };
+		1FDFE75D26A0CECD007FE1A0 /* AdventiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDFE76126A0CECD007FE1A0 /* AdventiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventiUITests.swift; sourceTree = "<group>"; };
 		1FDFE76326A0CECD007FE1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEF32392745AC3100C68F1C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1FEF323B2745AD5B00C68F1C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1FEF323E2745ADEC00C68F1C /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		1FEF32402745AE8200C68F1C /* AssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentView.swift; sourceTree = "<group>"; };
+		1FEF32482745B11D00C68F1C /* EventProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventProgressViewStyle.swift; sourceTree = "<group>"; };
+		1FEF324A2745B1BB00C68F1C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1FEF324D2745B26F00C68F1C /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		1FEF324F2745B2B500C68F1C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1FEF32552745B3A800C68F1C /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		1FEF32572745B3CC00C68F1C /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				1FDFE73E26A0CEC9007FE1A0 /* Adventi */,
-				1FDFE75526A0CECD007FE1A0 /* AdventioTests */,
-				1FDFE76026A0CECD007FE1A0 /* AdventioUITests */,
+				1FDFE75526A0CECD007FE1A0 /* AdventiTests */,
+				1FDFE76026A0CECD007FE1A0 /* AdventiUITests */,
 				1FDFE73D26A0CEC9007FE1A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,9 +107,9 @@
 		1FDFE73D26A0CEC9007FE1A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FDFE73C26A0CEC9007FE1A0 /* Adventio.app */,
-				1FDFE75226A0CECD007FE1A0 /* AdventioTests.xctest */,
-				1FDFE75D26A0CECD007FE1A0 /* AdventioUITests.xctest */,
+				1FDFE73C26A0CEC9007FE1A0 /* Adventi.app */,
+				1FDFE75226A0CECD007FE1A0 /* AdventiTests.xctest */,
+				1FDFE75D26A0CECD007FE1A0 /* AdventiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +117,19 @@
 		1FDFE73E26A0CEC9007FE1A0 /* Adventi */ = {
 			isa = PBXGroup;
 			children = (
+				1FEF325B2745B49500C68F1C /* Resources */,
+				1FEF324C2745B24E00C68F1C /* Models */,
 				1FDFE73F26A0CEC9007FE1A0 /* AdventiApp.swift */,
+				1FEF32402745AE8200C68F1C /* AssignmentView.swift */,
 				1FAD1EDF2745A915009172C3 /* EventsView.swift */,
+				1FEF323B2745AD5B00C68F1C /* DetailView.swift */,
+				1FEF32392745AC3100C68F1C /* CardView.swift */,
+				1FEF323E2745ADEC00C68F1C /* EditView.swift */,
+				1FEF32482745B11D00C68F1C /* EventProgressViewStyle.swift */,
+				1FEF324A2745B1BB00C68F1C /* HistoryView.swift */,
 				1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */,
-				1FDFE74826A0CECC007FE1A0 /* Persistence.swift */,
 				1FDFE74D26A0CECC007FE1A0 /* Info.plist */,
-				1FDFE74A26A0CECC007FE1A0 /* Adventio.xcdatamodeld */,
+				1FDFE74A26A0CECC007FE1A0 /* Adventi.xcdatamodeld */,
 				1FDFE74526A0CECC007FE1A0 /* Preview Content */,
 			);
 			path = Adventi;
@@ -118,30 +143,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1FDFE75526A0CECD007FE1A0 /* AdventioTests */ = {
+		1FDFE75526A0CECD007FE1A0 /* AdventiTests */ = {
 			isa = PBXGroup;
 			children = (
-				1FDFE75626A0CECD007FE1A0 /* AdventioTests.swift */,
+				1FDFE75626A0CECD007FE1A0 /* AdventiTests.swift */,
 				1FDFE75826A0CECD007FE1A0 /* Info.plist */,
 			);
-			path = AdventioTests;
+			path = AdventiTests;
 			sourceTree = "<group>";
 		};
-		1FDFE76026A0CECD007FE1A0 /* AdventioUITests */ = {
+		1FDFE76026A0CECD007FE1A0 /* AdventiUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1FDFE76126A0CECD007FE1A0 /* AdventioUITests.swift */,
+				1FDFE76126A0CECD007FE1A0 /* AdventiUITests.swift */,
 				1FDFE76326A0CECD007FE1A0 /* Info.plist */,
 			);
-			path = AdventioUITests;
+			path = AdventiUITests;
+			sourceTree = "<group>";
+		};
+		1FEF324C2745B24E00C68F1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF324D2745B26F00C68F1C /* Color+Codable.swift */,
+				1FEF324F2745B2B500C68F1C /* Event.swift */,
+				1FEF32552745B3A800C68F1C /* History.swift */,
+				1FEF32572745B3CC00C68F1C /* EventData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1FEF325B2745B49500C68F1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FDFE73B26A0CEC9007FE1A0 /* Adventio */ = {
+		1FDFE73B26A0CEC9007FE1A0 /* Adventi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FDFE76626A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "Adventio" */;
+			buildConfigurationList = 1FDFE76626A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "Adventi" */;
 			buildPhases = (
 				1FDFE73826A0CEC9007FE1A0 /* Sources */,
 				1FDFE73926A0CEC9007FE1A0 /* Frameworks */,
@@ -151,14 +194,14 @@
 			);
 			dependencies = (
 			);
-			name = Adventio;
+			name = Adventi;
 			productName = Adventio;
-			productReference = 1FDFE73C26A0CEC9007FE1A0 /* Adventio.app */;
+			productReference = 1FDFE73C26A0CEC9007FE1A0 /* Adventi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1FDFE75126A0CECD007FE1A0 /* AdventioTests */ = {
+		1FDFE75126A0CECD007FE1A0 /* AdventiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FDFE76926A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioTests" */;
+			buildConfigurationList = 1FDFE76926A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventiTests" */;
 			buildPhases = (
 				1FDFE74E26A0CECD007FE1A0 /* Sources */,
 				1FDFE74F26A0CECD007FE1A0 /* Frameworks */,
@@ -169,14 +212,14 @@
 			dependencies = (
 				1FDFE75426A0CECD007FE1A0 /* PBXTargetDependency */,
 			);
-			name = AdventioTests;
+			name = AdventiTests;
 			productName = AdventioTests;
-			productReference = 1FDFE75226A0CECD007FE1A0 /* AdventioTests.xctest */;
+			productReference = 1FDFE75226A0CECD007FE1A0 /* AdventiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1FDFE75C26A0CECD007FE1A0 /* AdventioUITests */ = {
+		1FDFE75C26A0CECD007FE1A0 /* AdventiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FDFE76C26A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioUITests" */;
+			buildConfigurationList = 1FDFE76C26A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventiUITests" */;
 			buildPhases = (
 				1FDFE75926A0CECD007FE1A0 /* Sources */,
 				1FDFE75A26A0CECD007FE1A0 /* Frameworks */,
@@ -187,9 +230,9 @@
 			dependencies = (
 				1FDFE75F26A0CECD007FE1A0 /* PBXTargetDependency */,
 			);
-			name = AdventioUITests;
+			name = AdventiUITests;
 			productName = AdventioUITests;
-			productReference = 1FDFE75D26A0CECD007FE1A0 /* AdventioUITests.xctest */;
+			productReference = 1FDFE75D26A0CECD007FE1A0 /* AdventiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1FDFE73726A0CEC9007FE1A0 /* Build configuration list for PBXProject "Adventio" */;
+			buildConfigurationList = 1FDFE73726A0CEC9007FE1A0 /* Build configuration list for PBXProject "Adventi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +270,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FDFE73B26A0CEC9007FE1A0 /* Adventio */,
-				1FDFE75126A0CECD007FE1A0 /* AdventioTests */,
-				1FDFE75C26A0CECD007FE1A0 /* AdventioUITests */,
+				1FDFE73B26A0CEC9007FE1A0 /* Adventi */,
+				1FDFE75126A0CECD007FE1A0 /* AdventiTests */,
+				1FDFE75C26A0CECD007FE1A0 /* AdventiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,10 +308,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FDFE74926A0CECC007FE1A0 /* Persistence.swift in Sources */,
+				1FEF32562745B3A800C68F1C /* History.swift in Sources */,
+				1FEF32582745B3CC00C68F1C /* EventData.swift in Sources */,
+				1FEF323C2745AD5B00C68F1C /* DetailView.swift in Sources */,
 				1FDFE74026A0CEC9007FE1A0 /* AdventiApp.swift in Sources */,
-				1FDFE74C26A0CECC007FE1A0 /* Adventio.xcdatamodeld in Sources */,
+				1FEF324B2745B1BB00C68F1C /* HistoryView.swift in Sources */,
+				1FEF32412745AE8200C68F1C /* AssignmentView.swift in Sources */,
+				1FDFE74C26A0CECC007FE1A0 /* Adventi.xcdatamodeld in Sources */,
+				1FEF323F2745ADEC00C68F1C /* EditView.swift in Sources */,
 				1FAD1EE02745A915009172C3 /* EventsView.swift in Sources */,
+				1FEF324E2745B26F00C68F1C /* Color+Codable.swift in Sources */,
+				1FEF32492745B11D00C68F1C /* EventProgressViewStyle.swift in Sources */,
+				1FEF323A2745AC3100C68F1C /* CardView.swift in Sources */,
+				1FEF32502745B2B500C68F1C /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FDFE75726A0CECD007FE1A0 /* AdventioTests.swift in Sources */,
+				1FDFE75726A0CECD007FE1A0 /* AdventiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FDFE76226A0CECD007FE1A0 /* AdventioUITests.swift in Sources */,
+				1FDFE76226A0CECD007FE1A0 /* AdventiUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +345,12 @@
 /* Begin PBXTargetDependency section */
 		1FDFE75426A0CECD007FE1A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FDFE73B26A0CEC9007FE1A0 /* Adventio */;
+			target = 1FDFE73B26A0CEC9007FE1A0 /* Adventi */;
 			targetProxy = 1FDFE75326A0CECD007FE1A0 /* PBXContainerItemProxy */;
 		};
 		1FDFE75F26A0CECD007FE1A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FDFE73B26A0CEC9007FE1A0 /* Adventio */;
+			target = 1FDFE73B26A0CEC9007FE1A0 /* Adventi */;
 			targetProxy = 1FDFE75E26A0CECD007FE1A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,16 +478,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Adventio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Adventi/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Adventio/Info.plist;
+				INFOPLIST_FILE = Adventi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.Adventio";
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.Adventi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,16 +500,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Adventio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Adventi/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UX5EWBBHZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Adventio/Info.plist;
+				INFOPLIST_FILE = Adventi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.Adventio";
+				PRODUCT_BUNDLE_IDENTIFIER = "trholman-gmail.com.Adventi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventio.app/Adventio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventi.app/Adventi";
 			};
 			name = Debug;
 		};
@@ -504,7 +556,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventio.app/Adventio";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventi.app/Adventi";
 			};
 			name = Release;
 		};
@@ -551,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FDFE73726A0CEC9007FE1A0 /* Build configuration list for PBXProject "Adventio" */ = {
+		1FDFE73726A0CEC9007FE1A0 /* Build configuration list for PBXProject "Adventi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FDFE76426A0CECD007FE1A0 /* Debug */,
@@ -560,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FDFE76626A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "Adventio" */ = {
+		1FDFE76626A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "Adventi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FDFE76726A0CECD007FE1A0 /* Debug */,
@@ -569,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FDFE76926A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioTests" */ = {
+		1FDFE76926A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FDFE76A26A0CECD007FE1A0 /* Debug */,
@@ -578,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FDFE76C26A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventioUITests" */ = {
+		1FDFE76C26A0CECD007FE1A0 /* Build configuration list for PBXNativeTarget "AdventiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FDFE76D26A0CECD007FE1A0 /* Debug */,
@@ -590,13 +642,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1FDFE74A26A0CECC007FE1A0 /* Adventio.xcdatamodeld */ = {
+		1FDFE74A26A0CECC007FE1A0 /* Adventi.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				1FDFE74B26A0CECC007FE1A0 /* Adventio.xcdatamodel */,
 			);
 			currentVersion = 1FDFE74B26A0CECC007FE1A0 /* Adventio.xcdatamodel */;
-			path = Adventio.xcdatamodeld;
+			path = Adventi.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

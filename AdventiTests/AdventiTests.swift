@@ -1,14 +1,14 @@
 //
-//  AdventioTests.swift
-//  AdventioTests
+//  AdventiTests.swift
+//  AdventiTests
 //
 //  Created by Travis Holman on 7/15/21.
 //
 
 import XCTest
-@testable import Adventio
+@testable import Adventi
 
-class AdventioTests: XCTestCase {
+class AdventiTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
