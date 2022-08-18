@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FDFE74026A0CEC9007FE1A0 /* AdventioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE73F26A0CEC9007FE1A0 /* AdventioApp.swift */; };
-		1FDFE74226A0CEC9007FE1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74126A0CEC9007FE1A0 /* ContentView.swift */; };
+		1FAD1EE02745A915009172C3 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD1EDF2745A915009172C3 /* EventsView.swift */; };
+		1FDFE74026A0CEC9007FE1A0 /* AdventiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE73F26A0CEC9007FE1A0 /* AdventiApp.swift */; };
 		1FDFE74426A0CECC007FE1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */; };
 		1FDFE74726A0CECC007FE1A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDFE74626A0CECC007FE1A0 /* Preview Assets.xcassets */; };
 		1FDFE74926A0CECC007FE1A0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFE74826A0CECC007FE1A0 /* Persistence.swift */; };
@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FAD1EDF2745A915009172C3 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		1FDFE73C26A0CEC9007FE1A0 /* Adventio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FDFE73F26A0CEC9007FE1A0 /* AdventioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventioApp.swift; sourceTree = "<group>"; };
-		1FDFE74126A0CEC9007FE1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FDFE73F26A0CEC9007FE1A0 /* AdventiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventiApp.swift; sourceTree = "<group>"; };
 		1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDFE74626A0CECC007FE1A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FDFE74826A0CECC007FE1A0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		1FDFE73326A0CEC9007FE1A0 = {
 			isa = PBXGroup;
 			children = (
-				1FDFE73E26A0CEC9007FE1A0 /* Adventio */,
+				1FDFE73E26A0CEC9007FE1A0 /* Adventi */,
 				1FDFE75526A0CECD007FE1A0 /* AdventioTests */,
 				1FDFE76026A0CECD007FE1A0 /* AdventioUITests */,
 				1FDFE73D26A0CEC9007FE1A0 /* Products */,
@@ -96,18 +96,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1FDFE73E26A0CEC9007FE1A0 /* Adventio */ = {
+		1FDFE73E26A0CEC9007FE1A0 /* Adventi */ = {
 			isa = PBXGroup;
 			children = (
-				1FDFE73F26A0CEC9007FE1A0 /* AdventioApp.swift */,
-				1FDFE74126A0CEC9007FE1A0 /* ContentView.swift */,
+				1FDFE73F26A0CEC9007FE1A0 /* AdventiApp.swift */,
+				1FAD1EDF2745A915009172C3 /* EventsView.swift */,
 				1FDFE74326A0CECC007FE1A0 /* Assets.xcassets */,
 				1FDFE74826A0CECC007FE1A0 /* Persistence.swift */,
 				1FDFE74D26A0CECC007FE1A0 /* Info.plist */,
 				1FDFE74A26A0CECC007FE1A0 /* Adventio.xcdatamodeld */,
 				1FDFE74526A0CECC007FE1A0 /* Preview Content */,
 			);
-			path = Adventio;
+			path = Adventi;
 			sourceTree = "<group>";
 		};
 		1FDFE74526A0CECC007FE1A0 /* Preview Content */ = {
@@ -266,9 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FDFE74926A0CECC007FE1A0 /* Persistence.swift in Sources */,
-				1FDFE74226A0CEC9007FE1A0 /* ContentView.swift in Sources */,
-				1FDFE74026A0CEC9007FE1A0 /* AdventioApp.swift in Sources */,
+				1FDFE74026A0CEC9007FE1A0 /* AdventiApp.swift in Sources */,
 				1FDFE74C26A0CECC007FE1A0 /* Adventio.xcdatamodeld in Sources */,
+				1FAD1EE02745A915009172C3 /* EventsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
